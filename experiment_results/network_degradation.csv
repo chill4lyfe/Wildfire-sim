@@ -1,0 +1,9 @@
+task_id,task_name,tenant_id,sensitivity,cpu,ram_gb,deadline_ms,policy,host_node,tier,latency_ms,sla_met,success,vm_id,placement_reason,condition
+TSK-05,Perimeter IR Map Stitching,USFS_FORESTRY,MEDIUM,2.5,3.0,90.0,optimized,Fog_Mobile_Command,FOG,41.3,True,True,VM-001,Primary tier match [FOG] (Load 0%),Normal Fog (35ms)
+TSK-06,Evacuation Route Cam Stream,RED_CROSS,MEDIUM,3.0,4.0,80.0,optimized,Fog_Mobile_Command,FOG,52.8,True,True,VM-002,Primary tier match [FOG] (Load 16%),Normal Fog (35ms)
+TSK-07,Wind Vector Interpolation,USFS_FORESTRY,MEDIUM,1.5,1.5,70.0,optimized,Fog_Mobile_Command,FOG,61.3,True,True,VM-003,Primary tier match [FOG] (Load 34%),Normal Fog (35ms)
+TSK-08,Crew Vitals & Heat-Stress,CAL_FIRE,MEDIUM,1.0,1.0,60.0,optimized,Fog_Mobile_Command,FOG,68.7,False,True,VM-004,Primary tier match [FOG] (Load 44%),Normal Fog (35ms)
+TSK-05,Perimeter IR Map Stitching,USFS_FORESTRY,MEDIUM,2.5,3.0,90.0,optimized,Fog_Mobile_Command,FOG,413.3,False,True,VM-001,Primary tier match [FOG] (Load 0%),Degraded Fog (350ms)
+TSK-06,Evacuation Route Cam Stream,RED_CROSS,MEDIUM,3.0,4.0,80.0,optimized,Fog_Mobile_Command,FOG,527.9,False,True,VM-002,Primary tier match [FOG] (Load 16%),Degraded Fog (350ms)
+TSK-07,Wind Vector Interpolation,USFS_FORESTRY,MEDIUM,1.5,1.5,70.0,optimized,Fog_Mobile_Command,FOG,612.9,False,True,VM-003,Primary tier match [FOG] (Load 34%),Degraded Fog (350ms)
+TSK-08,Crew Vitals & Heat-Stress,CAL_FIRE,MEDIUM,1.0,1.0,60.0,optimized,Fog_Mobile_Command,FOG,686.5,False,True,VM-004,Primary tier match [FOG] (Load 44%),Degraded Fog (350ms)

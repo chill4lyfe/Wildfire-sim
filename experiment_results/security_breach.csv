@@ -1,0 +1,2 @@
+vm_id,owner,attacker,action,denied,immutable_verified,pre_hash,post_hash
+VM-001,CAL_FIRE,RED_CROSS,STOP_VM,True,True,6b6f20c2da43,6b6f20c2da43

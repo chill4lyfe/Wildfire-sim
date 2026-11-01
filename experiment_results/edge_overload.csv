@@ -1,0 +1,6 @@
+task_id,task_name,tenant_id,sensitivity,cpu,ram_gb,deadline_ms,policy,host_node,tier,latency_ms,sla_met,success,vm_id,placement_reason
+OVR-01,Surge Task 1,CAL_FIRE,HIGH,1.2,1.0,30.0,optimized,Edge_Drone_Swarm,EDGE,11.3,True,True,VM-001,Primary tier match [EDGE] (Load 0%)
+OVR-02,Surge Task 2,CAL_FIRE,HIGH,1.2,1.0,30.0,optimized,Edge_Drone_Swarm,EDGE,19.4,True,True,VM-002,Primary tier match [EDGE] (Load 30%)
+OVR-03,Surge Task 3,CAL_FIRE,HIGH,1.2,1.0,30.0,optimized,Edge_Drone_Swarm,EDGE,68.0,False,True,VM-003,Primary tier match [EDGE] (Load 60%)
+OVR-04,Surge Task 4,CAL_FIRE,HIGH,1.2,1.0,30.0,optimized,Fog_Mobile_Command,FOG,37.8,False,True,VM-004,Dynamic failover: EDGE -> [FOG] (Capacity/Thermal Preserved)
+OVR-05,Surge Task 5,CAL_FIRE,HIGH,1.2,1.0,30.0,optimized,Fog_Mobile_Command,FOG,41.0,False,True,VM-005,Dynamic failover: EDGE -> [FOG] (Capacity/Thermal Preserved)
