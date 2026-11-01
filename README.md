@@ -38,8 +38,8 @@ Everything runs **100% locally** in Python without needing paid cloud accounts, 
 ## System Architecture
 
 <div align="center">
-  <img src="assets/architecture.png" alt="Architecture Flowchart" width="850"/>
-  <p><i>Workload flow from Multi-Tenant agencies down to Edge, Fog, and Cloud tiers.</i></p>
+  <img width="1224" height="1285" alt="CDEF_project_flowchart" src="https://github.com/user-attachments/assets/d5c2fd15-0f92-4a30-bbb3-e51b7d1c41af" />
+
 </div>
 
 ---
